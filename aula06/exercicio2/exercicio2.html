@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecxercício 2</title>
+</head>
+<style>
+    body{
+        background-color: rgb(255, 190, 235);
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+
+    input{
+        width: 100%;
+        height: 10%;
+        border-radius: 12px;
+    }
+    .botao{
+        width: 102%;
+        height: 15%;
+        font-size: 1.5rem;
+        margin-top: 7%;
+        background-color: rgb(233, 118, 204);
+    }
+    
+
+</style>
+<body>
+    <h1>Exercício 2</h1>
+    <div>
+        <form action="processa.php" method="post">
+            <p>Digite um número para colunas:</p>
+            <input type="number" name="cxcol" id="" min="1" required>
+            <p>Digite um número para linhas:</p>
+            <input type="number" name="cxlin" id="" min="1" required>
+            <input class="botao" type="submit" value="Enviar">
+        </form>
+    </div>
+    
+</body>
+</html>
